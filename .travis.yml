@@ -1,3 +1,7 @@
+arch:
+- amd64
+- ppc64le
+language: ruby
 before_install:
 - bash -e ${TRAVIS_BUILD_DIR}/.travis.yml.before_install
 install:
